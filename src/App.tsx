@@ -12,22 +12,13 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+    "No",
+    "Are you sure love? :(",
+    "Please my love",
+    "Why not my love??",
+    "ik Im not there but still :c",
+    "PLSPLSPLSPLSPLSPLSPLSPLSPLSPLS",
+    "You broke my heart...",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -37,16 +28,16 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <img src="https://imgur.com/a/U28jEOv" />
+          <div className="my-4 text-4xl font-bold">Thank you my love, you make me so happy!</div>
         </>
       ) : (
         <>
           <img
             className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://imgur.com/a/CMQIYuf"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">Will you be my Valentine Nathania?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
